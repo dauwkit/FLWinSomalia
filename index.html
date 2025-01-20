@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ec72baed7484800fde53879d4e836aa2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ec72baed7484800fde53879d4e836aa2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ec72baed7484800fde53879d4e836aa2 = L.map(
+                "map_ec72baed7484800fde53879d4e836aa2",
+                {
+                    center: [2.0469, 45.3182],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ecbb00edcc490466db476c3570e04b2e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ecbb00edcc490466db476c3570e04b2e.addTo(map_ec72baed7484800fde53879d4e836aa2);
+        
+    
+            var marker_908d5009ae555b75c727e785dbca6f02 = L.marker(
+                [-0.3661575689373736, 42.54261727046116],
+                {"autoPan": true, "draggable": true}
+            ).addTo(map_ec72baed7484800fde53879d4e836aa2);
+        
+    
+        var popup_8366c98706aaa3099226de1897680836 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bbb67ee623556c831405731d46d5aa17 = $(`<div id="html_bbb67ee623556c831405731d46d5aa17" style="width: 100.0%; height: 100.0%;"><b>Calanley (Kismayo)</b><br>Coordinates: 0.3585° S, 42.5455° E<br>No. Samples Collected: 27<br>No. Boats: 27<br>Primary Gear(s) Used: Lines (n=27)<br>Secondary Gear(s) Used: Nets (n=27)<br>Top Species: Grouper and Yellowfin Tuna<br>Average Unloading Times: 6.03 min<br>Average Loss from Processing for Top Species: Yellowfin Tuna: 4.50 kg (7.80%)<br>Average Loss NOT from Processing for Top Species: Yellowfin Tuna: 0.50 kg (0.87%)<br>Access to Ice: Yes<br>Covered Area for Sales/Trading: No<br>Access to Clean Water: No<br>Access to Electricity: No<br>Main Causes of FLW Cited: Temperature damage and damage during transportation<br>Month(s) with Greatest FLW: January - March</div>`)[0];
+                popup_8366c98706aaa3099226de1897680836.setContent(html_bbb67ee623556c831405731d46d5aa17);
+            
+        
+
+        marker_908d5009ae555b75c727e785dbca6f02.bindPopup(popup_8366c98706aaa3099226de1897680836)
+        ;
+
+        
+    
+    
+            var marker_cc597e5dc90ad5965364d4997cc68c7d = L.marker(
+                [1.7127337689469884, 44.7675317756188],
+                {"autoPan": true, "draggable": true}
+            ).addTo(map_ec72baed7484800fde53879d4e836aa2);
+        
+    
+        var popup_3e67c8ebe056e3eb52e2171ee44798e2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c08b7839959f2332fdd76b3f1d67cd8b = $(`<div id="html_c08b7839959f2332fdd76b3f1d67cd8b" style="width: 100.0%; height: 100.0%;"><b>Merca</b><br>Coordinates: 2.0265° S, 44.719° E<br>No. Samples Collected: 20<br>No. Boats: 20<br>Primary Gear(s) Used: Lines (n=10) and Nets (n=10)<br>Secondary Gear(s) Used: Lines (n=6) and Nets (n=16)<br>Top Species: Lobster and Yellowfin Tuna<br>Average Unloading Times: 38.3 min<br>Average Loss from Processing for Top Species: Yellowfin Tuna: 7.94 kg (8.39%)<br>Average Loss NOT from Processing for Top Species: Yellowfin Tuna: 49.6 kg (52.43%)<br>Access to Ice: No<br>Covered Area for Sales/Trading: No<br>Access to Clean Water: No<br>Access to Electricity: No<br>Main Causes of FLW Cited: Temperature, animals damaging fish, damage during fishing, damage during transportation and storage<br>Month(s) with Greatest FLW: March</div>`)[0];
+                popup_3e67c8ebe056e3eb52e2171ee44798e2.setContent(html_c08b7839959f2332fdd76b3f1d67cd8b);
+            
+        
+
+        marker_cc597e5dc90ad5965364d4997cc68c7d.bindPopup(popup_3e67c8ebe056e3eb52e2171ee44798e2)
+        ;
+
+        
+    
+    
+            var marker_24d0ac41a668c8772d8df7b3e1967fa5 = L.marker(
+                [2.0316436470440316, 45.34268723388478],
+                {"autoPan": true, "draggable": true}
+            ).addTo(map_ec72baed7484800fde53879d4e836aa2);
+        
+    
+        var popup_2f740de4297141408de89f9dceb19ce6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3a4369cb688836fffc38b2c4efac6d91 = $(`<div id="html_3a4369cb688836fffc38b2c4efac6d91" style="width: 100.0%; height: 100.0%;"><b>Hamar Weyne, Mogadishu</b><br>Coordinates: 2.0333° S, 45.34° E<br>No. Samples Collected: 21<br>No. Boats: 21<br>Primary Gear(s) Used: Lines (n=21)<br>Secondary Gear(s) Used: Lines (n=2), Nets (n=14), Gillnet (n=5)<br>Top Species: Yellowfin Tuna and Grouper<br>Average Unloading Times: 7.14 min<br>Average Loss from Processing for Top Species: Yellowfin Tuna: 62.9 kg (14.4%)<br>Average Loss NOT from Processing for Top Species: Yellowfin Tuna: 0.30 kg (0.07%)<br>Access to Ice: No<br>Covered Area for Sales/Trading: No<br>Access to Clean Water: No<br>Access to Electricity: No<br>Main Causes of FLW Cited: Temperature, animals damaging fish, damage during fishing, damage during transportation and storage<br>Month(s) with Greatest FLW: August</div>`)[0];
+                popup_2f740de4297141408de89f9dceb19ce6.setContent(html_3a4369cb688836fffc38b2c4efac6d91);
+            
+        
+
+        marker_24d0ac41a668c8772d8df7b3e1967fa5.bindPopup(popup_2f740de4297141408de89f9dceb19ce6)
+        ;
+
+        
+    
+    
+            var marker_2b08300b43db090c669a4575b188642f = L.marker(
+                [2.1755633119967905, 45.590747342765496],
+                {"autoPan": true, "draggable": true}
+            ).addTo(map_ec72baed7484800fde53879d4e836aa2);
+        
+    
+        var popup_9fefeb2e79fc0c0a9bb9443f223aad4c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_91967701fd06ac4f6b2554b5ca828bf8 = $(`<div id="html_91967701fd06ac4f6b2554b5ca828bf8" style="width: 100.0%; height: 100.0%;"><b>Ceel Macaan</b><br>Coordinates: 3.1653° S, 45.5335° E<br>No. Samples Collected: 34<br>No. Boats: 34<br>Primary Gear(s) Used: Lines (n=24) and Nets (n=10)<br>Secondary Gear(s) Used: Nets (n=15) and Other (n=19)<br>Top Species: Lobster and Yellowfin Tuna<br>Average Unloading Times: 8.38 min<br>Average Loss from Processing for Top Species: Bigeye Tuna: 1.75 kg (4.77%)<br>Average Loss NOT from Processing for Top Species: Lobster: 0.32 kg (3.68%)<br>Access to Ice: No<br>Covered Area for Sales/Trading: No<br>Access to Clean Water: No<br>Access to Electricity: No<br>Main Causes of FLW Cited: Temperature damage and damage during storage<br>Month(s) with Greatest FLW: October</div>`)[0];
+                popup_9fefeb2e79fc0c0a9bb9443f223aad4c.setContent(html_91967701fd06ac4f6b2554b5ca828bf8);
+            
+        
+
+        marker_2b08300b43db090c669a4575b188642f.bindPopup(popup_9fefeb2e79fc0c0a9bb9443f223aad4c)
+        ;
+
+        
+    
+    
+            var marker_c691f0b4cdd01620c2522af49af1bdb6 = L.marker(
+                [5.341658109307001, 48.53101558662051],
+                {"autoPan": true, "draggable": true}
+            ).addTo(map_ec72baed7484800fde53879d4e836aa2);
+        
+    
+        var popup_a5dc719374a5770ffd8b7ba972abcbbc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_68e39ebfca2a65f42ed944e0005cb0f8 = $(`<div id="html_68e39ebfca2a65f42ed944e0005cb0f8" style="width: 100.0%; height: 100.0%;"><b>Hobyo</b><br>Coordinates: 5.3491° S, 47.5649° E<br>No. Samples Collected: 20<br>No. Boats: 20<br>Primary Gear(s) Used: Lines (n=10) and Nets (n=10)<br>Secondary Gear(s) Used: Nets (n=20)<br>Top Species: Bigeye Tuna and Yellowfin Tuna<br>Average Unloading Times: 6.50 min<br>Average Loss from Processing for Top Species: Bigeye Tuna: 0.86 kg (9.42%)<br>Average Loss NOT from Processing for Top Species: Yellowfin Tuna: 0.30 kg (0.84%)<br>Access to Ice: Some have access to ice, some do not<br>Covered Area for Sales/Trading: Some areas do, some don’t<br>Access to Clean Water: Yes<br>Access to Electricity: Yes<br>Main Causes of FLW Cited: Temperature, animals damaging fish, damage during fishing, damage during transportation and storage<br>Month(s) with Greatest FLW: March</div>`)[0];
+                popup_a5dc719374a5770ffd8b7ba972abcbbc.setContent(html_68e39ebfca2a65f42ed944e0005cb0f8);
+            
+        
+
+        marker_c691f0b4cdd01620c2522af49af1bdb6.bindPopup(popup_a5dc719374a5770ffd8b7ba972abcbbc)
+        ;
+
+        
+    
+</script>
+</html>
